@@ -11,6 +11,7 @@ import Education from './components/Education/Education';
 import Certifications from "./components/Certifications/Certifications";
 import Projects from "./components/Projects/Project";
 import AboutMe from "./components/About Me/AboutMe";
+import CookiePolicy from "/components/Cookie Policy/CookiePolicy";
 
 import { useSelector } from "react-redux";
 
@@ -29,6 +30,10 @@ const App=()=> {
                             </Route>
                             <Route path="/home">
                                 <Home />
+                            </Route>
+
+                            <Route path="/cookie-policy">
+                                <CookiePolicy />
                             </Route>
 
                             <Route path="/about-me">
