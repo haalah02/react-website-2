@@ -123,7 +123,7 @@ function CookiePolicy() {
           .
         </p>
         <footer>
-          <a className="linkToHomepage" href="./App.js">
+          <a className="linkToHomepage" href="http://react-website-2.vercel.app">
             Back To Homepage
           </a>
         </footer>
