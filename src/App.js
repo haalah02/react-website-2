@@ -12,6 +12,7 @@ import Certifications from "./components/Certifications/Certifications";
 import Projects from "./components/Projects/Project";
 import AboutMe from "./components/About Me/AboutMe";
 import CookiePolicy from "./components/Cookie Policy/CookiePolicy";
+import PrivacyPolicy from "./components/Privacy Policy/PrivacyPolicy";
 
 import { useSelector } from "react-redux";
 
@@ -34,6 +35,10 @@ const App=()=> {
 
                             <Route path="/cookie-policy">
                                 <CookiePolicy />
+                            </Route>
+
+                            <Route path="/privacy-policy">
+                                <PrivacyPolicy />
                             </Route>
 
                             <Route path="/about-me">
