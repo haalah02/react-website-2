@@ -6,9 +6,7 @@ function Dropdown(props) {
             <NavLink activeClassName="active" to="/home">
                 <div className="navs">Home</div>
             </NavLink>
-            <NavLink activeClassName="active" to="/cookie-policy">
-                <div className="navs">Cookie Policy</div>
-            </NavLink>
+ 
             <NavLink to="/education" activeClassName="active">
                 <div className="navs">Education</div>
             </NavLink>
@@ -21,6 +19,12 @@ function Dropdown(props) {
             <NavLink to="/about-me" activeClassName="active">
                 <div className="navs">About Me</div>
             </NavLink>
+            <NavLink activeClassName="active" to="/privacy-policy">
+                <div className="navs">Privacy Policy</div>
+            </NavLink>
+            {/* <NavLink activeClassName="active" to="/cookie-policy">
+                <div className="navs">Cookie Policy</div>
+            </NavLink> */}
         </React.Fragment>
     )
 }
