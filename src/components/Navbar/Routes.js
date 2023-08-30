@@ -7,7 +7,7 @@ function Dropdown(props) {
                 <div className="navs">Home</div>
             </NavLink>
             <NavLink activeClassName="active" to="/cookie-policy">
-                <div className="navs">Cokie Policy</div>
+                <div className="navs">Cookie Policy</div>
             </NavLink>
             <NavLink to="/education" activeClassName="active">
                 <div className="navs">Education</div>
