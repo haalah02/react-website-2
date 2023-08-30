@@ -1,7 +1,7 @@
 {
   "name": "personal-portfolio",
   "version": "0.1.0",
-  "homepage": "/Users/haalahibrahim/Desktop/Basic Site Examples", 
+  "homepage": "public/index.html",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -22,7 +22,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start && /public/index.html",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
