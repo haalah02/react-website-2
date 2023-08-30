@@ -1,8 +1,8 @@
 
 
+import React from "react";
 
-
-function cookiePolicy() {
+function CookiePolicy() {
     return (
       <div className="policy">
         <h1 class="cookie-policy-h1">Cookie Policy</h1>
@@ -130,5 +130,5 @@ function cookiePolicy() {
       </div>
     );
   }
-  export default cookiePolicy;
+  export default CookiePolicy;
   
