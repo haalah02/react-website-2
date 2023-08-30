@@ -6,6 +6,9 @@ function Dropdown(props) {
             <NavLink activeClassName="active" to="/home">
                 <div className="navs">Home</div>
             </NavLink>
+            <NavLink activeClassName="active" to="/cookie-policy">
+                <div className="navs">Cokie Policy</div>
+            </NavLink>
             <NavLink to="/education" activeClassName="active">
                 <div className="navs">Education</div>
             </NavLink>
